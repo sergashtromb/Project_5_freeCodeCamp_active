@@ -1,0 +1,237 @@
+body {
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+} 
+
+header {
+    width: 100%; 
+    background-color: #be3144; 
+    height: 80px; 
+    position: sticky;   
+    top: 0; 
+    left: 0;
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 5;
+}  
+header nav {  
+    
+    width: 300px; 
+    height: 80px; 
+    margin: 0px 60px 0px 0px;
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+    
+}
+header nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 22px; 
+    font-weight: 300;
+    padding: 23px 20px; 
+}
+
+header nav a:hover {
+     background-color: #45567d; 
+     
+}
+main {
+    position: relative; 
+    top: 0px; 
+    left: 0;
+} 
+
+#about {
+    background-color: #000; 
+    text-align: center; 
+    color: white; 
+    padding: 100px 0px 360px 0px;
+} 
+
+#about h1 {
+    font-size: 6rem; 
+    font-weight: 700; 
+    padding: 0; 
+    margin: 0;
+} 
+
+#about p {
+    font-style: italic; 
+    color: #be3144; 
+    font-size: 3rem; 
+    padding: 0; 
+    font-weight: 200; 
+    margin: 0;
+} 
+
+#work {
+    background-color: #45567d; 
+    margin: 0; 
+    position: relative; 
+    top: 0; 
+    left: 0;
+} 
+
+#work h2 { 
+    width: 780px;
+    text-align: center; 
+    margin: 0 auto 6rem auto; 
+    padding: 80px 0px 0px 0px;  
+    font-size: 3rem; 
+    color: white; 
+    border-bottom: 0.2rem solid white;
+} 
+
+#work .row_work a img {
+    height: 100%; 
+    width: 400px; 
+    object-fit: cover; 
+    display: block; 
+    text-align: center;
+} 
+
+.row_work a {
+    width: 400px; 
+    margin: 20px 0px; 
+    text-decoration: none;
+}
+
+.row_work {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    grid-gap: 4rem; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    margin-bottom: 6rem;
+} 
+
+.row_work p {
+    background-color: #303841; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0px; 
+    margin: 0 auto; 
+    font-size: 20px;
+} 
+
+.row_work p span {
+    padding: 0px 10px; 
+    font-size: 18px; 
+    font-weight: 800;
+    color: #303841; 
+} 
+
+.row_work p:hover span {
+    color: rgb(255, 102, 0); 
+    transition: 0.4s;
+} 
+
+#work #work_a a {
+    text-decoration: none; 
+    color: white; 
+    background-color: #303841; 
+    font-size: 26px; 
+    padding: 15px 15px 15px 25px;  
+} 
+
+#work_a {
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 80px 0px 140px 0px; 
+    text-align: center;
+} 
+
+#work_a a span {
+    font-weight: 800;  
+    font-size: 28px;
+    width: 100px; 
+    color: #303841;
+} 
+#work_a a:hover span{
+    padding-left: 15px; 
+    transition: 0.4s; 
+    color: white;
+} 
+
+#contact {
+    text-align: center; 
+    background-color: #303841; 
+    height: 550px; 
+    color: white; 
+    border-bottom: 10px solid red;
+} 
+
+#contact a {
+    text-decoration: none; 
+    color: white; 
+    padding: 0px 20px; 
+    font-size: 24px;
+} 
+
+#contact h1 {
+    font-size: 5.4rem; 
+    margin: 0; 
+    padding-top: 100px; 
+    padding-bottom: 0px;
+} 
+
+#contact p { 
+    padding-top: 0px; 
+    padding-bottom: 40px;
+    font-style: italic;
+    font-size: 22px; 
+    font-weight: 200;
+} 
+
+#contact #VK_a:hover #VK {
+    color: rgb(71, 71, 252); 
+    transition: 0.3s;
+} 
+
+#contact #GIT_a:hover #GIT {
+    color: black; 
+    transition: 0.3s;
+} 
+
+#contact #MAIL_a:hover #MAIL {
+    color: blue; 
+    transition: 0.3s;
+} 
+
+#contact #DS_a:hover #DS {
+    color: rgb(148, 52, 238); 
+    transition: 0.3s;
+} 
+
+#contact #KW_a:hover #KW {
+    color: orangered; 
+    transition: 0.3s;
+} 
+
+footer {
+    background-color: #303841; 
+    margin: 0; 
+    height: 150px; 
+    font-size: 18px;
+} 
+
+footer p {
+    margin: 0; 
+    padding-left: 20px; 
+} 
+
+#footer_text {
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: auto; 
+    color: white; 
+    padding-top: 60px;
+} 
+footer a {
+    text-decoration: none; 
+    color: white; 
+    padding-right: 20px;
+}
